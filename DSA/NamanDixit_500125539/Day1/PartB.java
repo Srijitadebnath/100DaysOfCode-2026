@@ -10,10 +10,10 @@ class PartB {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        int count = 1;
+        int sum = 1;
         for (int i = 1; i < arr.length; i++) {
-            count++;
+            sum += arr[i];
         }
-        System.out.println(count);
+        System.out.println(sum);
     }
 }
